@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Font Awesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+    <title>To-Do-List</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="items">
+        <div class="refresh"><i class="fa fa-refresh"></i></div>
+        <ul class="list-items1" id="list-items1">
+          <li><h3>Today's To Do</h3></li>
+          <hr />
+          <li>
+            <input
+              type="text"
+              class="addtask"
+              id="addtask"
+              placeholder="Add to your list"
+            />
+          </li>
+        </ul>
+        <ul class="list-items" id="list-items"></ul>
+        <div class="cleardiv">
+          <button type="button" class="clear" name="clear">
+            Clear completed
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
